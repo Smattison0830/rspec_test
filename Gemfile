@@ -56,3 +56,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "devise", "~> 4.8"
+
+gem "rspec", "~> 3.10"
+
+group :development, :test do
+  gem 'rspec-rails'
+end
